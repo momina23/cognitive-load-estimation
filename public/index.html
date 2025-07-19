@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Reading Task</title>
+</head>
+<body>
+  <h1>Reading Task</h1>
+  <p id="task-text">
+    Please read this passage carefully. Once done, you'll be asked how mentally demanding it was.
+  </p>
+  <pre style="font-size: 17px;">
+    In a small coastal village, residents rely on the rhythm of the tides for their livelihood.
+    Fishermen study the moon phases to anticipate the best catch, while children learn from an
+    early age to interpret changes in wind patterns and cloud formations. Although modern
+    technology offers forecasts and navigation tools, many villagers still trust the inherited
+    wisdom passed down through generations. This delicate balance between tradition and innovation
+    illustrates how communities adapt without abandoning their roots.
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </pre>
+
+  <textarea id="answer" placeholder="Summarize what you read (optional)"></textarea>
+  
+  <h3>Enter your age</h3>
+  <input id="age" />
+  
+  <h3>Rate the difficulty of the task (1 = Easy, 7 = Very Hard)</h3>
+  <input type="range" min="1" max="7" id="rating" />
+  <button onclick="submitData()">Submit</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
